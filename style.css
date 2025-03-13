@@ -96,7 +96,7 @@ body {
 .bx-chevrons-down {
     color: var(--color-primary);
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 48%;
     font-size: 60px;
     animation: floatAnimation 1.5s infinite ease-in-out;
@@ -328,6 +328,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+    .presentacion {
+        top: 160px;
+    }
     .presentacion h1 {
         font-size: 2em;
     }
@@ -370,4 +373,3 @@ body {
         border-bottom: none;
     }
 }
-
